@@ -48,7 +48,15 @@ public class Player extends GameObject implements Runnable{
 
     @Override
     public void render(Graphics g) {
-        g.setColor(Color.decode("#3f6082"));
+        String colorCode;
+        int n = 0;
+        if(n == 1){
+            colorCode = "#7FFFD4";
+        }
+        else{
+            colorCode = "#8B0000";
+        }
+        g.setColor(Color.decode(colorCode));
         g.fillRect(x, y, 50, 50);
     }
 

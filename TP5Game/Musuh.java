@@ -29,7 +29,7 @@ public class Musuh extends GameObject{
 
     @Override
     public void render(Graphics g) {
-        g.setColor(Color.decode("#f92020"));
+        g.setColor(Color.decode("#778899"));
         g.fillRect(x, y, 50, 50);
     }
     
